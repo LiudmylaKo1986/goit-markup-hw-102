@@ -1,3 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.header-icon {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: black;
+}
+.header-icon-color {
+    color: #2196F3;
+}
+.header-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.header-contact {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.section-item {
+    background: #2F303A;
+}
+.section-name {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
