@@ -57,3 +57,31 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
+.btn-group {
+    border: none;
+    background:#F5F4FA;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.btn-group:hover, .btn-group:focus {
+    background:#2196F3;
+    color:#FFFFFF ;
+}
+.section {
+
+}
+
+.section-title {
+
+}
+
+.section-text {
+
+}
+/*--*/
