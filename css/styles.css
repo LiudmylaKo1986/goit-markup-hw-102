@@ -1,3 +1,10 @@
+:root {
+    --main-title-color: #ffffff;
+    --second-title-color: #303030;
+    --main-btn-color: #ffffff;
+    --second-btn-color: #303030;
+    --accent-color: #ff6c00;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -57,6 +64,7 @@ body {
 }
 .section-button {
     font-family: inherit;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
