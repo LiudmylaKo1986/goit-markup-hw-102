@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
 }
 .list {
     list-style: none;
@@ -8,14 +7,20 @@ body {
 .link {
     text-decoration: none;
 }
-.header-icon {
+/*----- herder-----*/
+.header-logo{
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: black;
 }
-.header-icon-color {
+.header-color {
+    font-family: 'Raleway';
+    color: #2196F3;
+}
+.header-nav .current {
     color: #2196F3;
 }
 .header-list {
@@ -25,25 +30,47 @@ body {
     letter-spacing: 0.02em;
     color: #212121;
 }
+.header-list:hover, .header-list:focus {
+    color: #2196F3;
+}
 .header-contact {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.33;
     letter-spacing: 0.02em;
     color: #757575;
 }
+.header-contact:hover, .header-contact:focus {
+    color: #2196F3;
+}
 .section-item {
     background: #2F303A;
 }
-.section-name {
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        letter-spacing: 0.06em;
-        text-align: center;
-        text-transform: uppercase;
-        color: #FFFFFF;
+.section-nam {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section-button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border: none;
+    width: 216px;
+    height: 50px;
+}
+.section-button:hover,
+.section-button:focus {
+    background: #188CE8;  
 }
 .visually-hidden {
     position: absolute;
@@ -57,10 +84,91 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
-.btn-group {
+.section-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.section-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.section-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-members {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-profession {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*-----foooter------*/
+.footer {
+    background-color: #2F303A;
+}
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-color {
+    font-family: 'Raleway';
+    color: #2196F3;
+}
+.footer-address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact:hover,
+.footer-contact:focus {
+    color: #2196F3;
+}
+.btn-filter {
     border: none;
     background:#F5F4FA;
-    font-family: 'Roboto';
+    font-family: 'Roboto'
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -68,20 +176,30 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    height: 38px;
+    cursor: pointer;
 }
-.btn-group:hover, .btn-group:focus {
+.btn-filter:hover, .btn-filter:focus {
     background:#2196F3;
-    color:#FFFFFF ;
+    color:#FFFFFF;
+    cursor: pointer;
 }
-.section {
-
+.btn-group .current {
+    background: #2196F3;
+    color: #FFFFFF;
 }
-
-.section-title {
-
+.projects-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
-
-.section-text {
-
+.projects-type {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
-/*--*/
